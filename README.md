@@ -1,2 +1,2 @@
 # RoboticsND-Go-Chase-It
-![Go Chase It Demo](new2.gif)
+![Go Chase It Demo](demo.gif)
