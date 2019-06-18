@@ -24,7 +24,7 @@ This node receives the location data from the process_image node and then drives
 First, install Gazebo and ROS on Linux.
 
 Then, create a catkin workspace with a src/ directory and initialize the workspace:
-'''
+'''console
 $ mkdir -p catkin_ws/src
 $ cd catkin_ws/src
 $ catkin_init_workspace
