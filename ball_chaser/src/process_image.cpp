@@ -26,7 +26,7 @@ void process_image_callback(const sensor_msgs::Image img)
     bool found_ball = false;
     int column_index = 0;
     
-    for (int i=0; i < img.rows * img.step; i += 3)
+    for (int i=0; i < img.height * img.step; i += 3)
     {
         if ((img.data[i] == 255) && (img.data[i+1] == 255) && (img.data[i+2] == 255))
         {
